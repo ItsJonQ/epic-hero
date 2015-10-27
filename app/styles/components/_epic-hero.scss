@@ -1,0 +1,64 @@
+// Component :: Epic Hero
+
+.epic-hero {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  align-items: center;
+  background-color: $epic-hero--color--bg;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $epic-hero--color--text;
+  display: flex;
+  height: $epic-hero--height;
+  justify-content: center;
+  max-height: $epic-hero--max-height;
+  min-height: $epic-hero--min-height;
+  padding: $epic-hero--padding;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background-color: $epic-hero--color--tint;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background: $epic-hero--color--fade;
+    bottom: 0;
+    content: "";
+    height: 50%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+.epic-hero__content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
+  z-index: 2;
+}

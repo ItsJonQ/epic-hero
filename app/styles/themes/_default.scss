@@ -1,0 +1,21 @@
+// Themes :: Default
+
+.epic-hero--align-bottom {
+  align-items: flex-end;
+}
+
+.epic-hero--dim {
+  &:before {
+    opacity: 0.6;
+  }
+}
+
+.epic-hero--faded {
+  &:after {
+    opacity: 1;
+  }
+}
+
+.epic-hero--parallax {
+  background-attachment: fixed;
+}

@@ -1,0 +1,14 @@
+// Variables :: Epic Hero
+
+// Colors
+$epic-hero--color--bg:                rgba(orangered, 0.2) !default;
+$epic-hero--color--text:              white !default;
+$epic-hero--color--tint:              black;
+$epic-hero--color--fade:              linear-gradient( 0deg, rgba(black, 1), rgba(black, 0) );
+
+// Sizing
+$epic-hero--height:                   100vh !default;
+$epic-hero--max-height:               800px !default;
+$epic-hero--min-height:               480px !default;
+
+$epic-hero--padding:                  60px !default;

@@ -1,0 +1,10 @@
+// Index
+
+// Vendors
+@import "vendors/normalize";
+
+.epic-hero {
+  & + & {
+    border-top: 1px solid white;
+  }
+}
