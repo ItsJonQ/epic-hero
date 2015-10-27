@@ -6,12 +6,14 @@
 
 .epic-hero--dim {
   &:before {
+    display: block;
     opacity: 0.6;
   }
 }
 
 .epic-hero--faded {
   &:after {
+    display: block;
     opacity: 1;
   }
 }
