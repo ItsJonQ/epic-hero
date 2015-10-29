@@ -1,19 +1,20 @@
 // Component :: Epic Hero (Video)
 
 .epic-hero__video {
+  background-color: black;
   display: block;
-  height: 0;
+  height: 56.25vw;
   left: 50%;
   margin: auto;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   overflow: hidden;
-  padding: 0 0 56.25%;
+  padding: 0;
   position: absolute;
   top: 50%;
   transform: translateX(-50%) translateY(-50%) scale(1.001);
-  width: auto;
-  z-index: 1;
+  width: 178vh;
+  z-index: 0;
 
   .epic-hero__embed,
   iframe,
